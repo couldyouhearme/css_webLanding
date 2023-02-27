@@ -1,0 +1,131 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    color: #4f4D53;
+}
+
+h2 {
+    font-family: 'Roboto Black';
+    font-size: 64px;
+    font-weight: 900;
+    color: #E8BE02;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 900;
+    color: #E8BE02;
+    text-align: left;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #4f4D53;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar {
+    height: 48px;
+    background-color: #4f4D53;
+    display: flex;
+    padding-left: 200px;
+    align-items: center;
+}
+
+.banner {
+    color: white;
+    background: url('./assets/img_hero.jpg') top left/cover no-repeat;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_container {
+    /* background-color: cadetblue; */
+    margin-top: -90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.img_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img_row img {
+    height: 180px;
+    width: 180px;
+    /* est. */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_content {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 60px;
+    margin-top: -35px;
+    /* padding & margin: est. */
+}
+
+.yellow_band {
+    height: 12px;
+    background-color: #E8BE02;
+}
+
+.footer {
+    height: 320px;
+    background-color: #4f4D53;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list_container {
+    margin-left: 50px;
+    margin-right: 50px;
+    /* margin: est. */
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer_list {
+    height: 200px;
+}
